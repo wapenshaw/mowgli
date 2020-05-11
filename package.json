@@ -1,34 +1,54 @@
 {
-    "name": "jungle-night",
-    "displayName": "Jungle Night",
-    "description": "Dark VSCode Theme. Easy on your eyes.",
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#1E2428",
-        "theme": "dark"
-    },
-    "version": "1.10.0",
-    "engines": {
-        "vscode": "^1.38.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "publisher": "tweakimp",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tweakimp/jungle-night.git"
-    },
-    "bugs": {
-        "url": "https://github.com/tweakimp/jungle-night/issues"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Jungle Night",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Jungle Night-color-theme.json"
-            }
-        ]
-    }
+	"name": "mowgli",
+	"displayName": "Mowgli",
+	"description": "A Colorful theme based on the Jungle Night Theme",
+	"version": "0.1.0",
+	"publisher": "wapenshaw",
+	"galleryBanner": {
+		"color": "#0F1519",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"qna": "marketplace",
+	"author": {
+		"name": "Siddharth Abbineni",
+		"email": "thescarletcars@gmail.com",
+		"url": "https://wapenshaw.github.io"
+	},
+	"icon": "images/mowgli.png",
+	"homepage": "https://github.com/wapenshaw/mowgli",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"mowgli",
+		"gray",
+		"dark gray",
+		"colorful",
+		"color-theme",
+		"theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mowgli",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mowgli-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"url": "https://github.com/wapenshaw/mowgli/",
+		"type": "git"
+	},
+	"bugs": {
+		"url": "https://github.com/wapenshaw/mowgli/issues"
+	}
 }

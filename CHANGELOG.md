@@ -1,9 +1,25 @@
 # Change Log
 
-All notable changes to the "jungle-night" extension will be documented in this file.
+## [0.0.1] - 2020-05-11
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
+-   Initial release
 
-- Initial release
+## [0.0.3] - 2020-05-11
+
+-   Changed selected text background
+-   Added new metadata to packages.json
+-   Tweaked Selected Text settings
+
+## [0.0.4] - 2020-05-11
+
+-   Tweaked Terminal Colors
+-   Fixed messed up identifiers with VS Marketplace
+-   Readme and Screenshot Updated
+
+## [0.1.0] - 2020-05-11
+
+-   Bumped Version to 0.1.0
+-   First Publish to VS Market Place
+-   Fixed Git user email (duh)

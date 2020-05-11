@@ -1,12 +1,18 @@
-# Jungle Night
-### VSCode Theme
+# Mowgli Theme for VSCode
 
-![Screenshot](https://raw.githubusercontent.com/tweakimp/jungle-night/master/theme.png "Screenshot")
+## A Starter theme I created to learn VSCode Theming
 
-Optimized for Python.
+### Install @ [VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=wapenshaw.mowgli)
 
-I recommend using [FiraCode](https://github.com/tonsky/FiraCode) with ligatures.
+Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/tweakimp/jungle-night). I added custom coloring to the Syntax. Disabled Semantic Highlighting introduced in VSCode 1.4.5 to figure out hot to manage all of it properly.
 
-Unused colors are pink to spot where they are missing. Please file an issue if you spot one.
+Looks like too much color in the syntax, but I will keep tweaking as I use this as my main theme. If you do have suggestions, please add an issue!
 
-Send me feedback on [GitHub](https://github.com/tweakimp/jungle-night).
+I'd also recommend the following extenions which I've used for the screenshot:
+
+1. [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)
+2. [Fira Code Font with Ligature support](https://github.com/tonsky/FiraCode)
+3. [Indent Rainbow](https://github.com/oderwat/vscode-indent-rainbow)
+4. [Helium Icon Theme](https://github.com/helgardferreira/vscode-helium-icon-theme)
+
+![Screenshot](./images/screenshot1.png 'Sample in JS')
