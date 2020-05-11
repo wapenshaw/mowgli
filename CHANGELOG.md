@@ -23,3 +23,8 @@
 -   Bumped Version to 0.1.0
 -   First Publish to VS Market Place
 -   Fixed Git user email (duh)
+
+## [0.1.1] - 2020-05-11
+
+-   Massive Syntax coloring rework
+-   Basic Semantics Highlighting Schema added. Flag set to true
