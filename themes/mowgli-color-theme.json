@@ -2,7 +2,7 @@
 	"name": "Mowgli",
 	"type": "dark",
 
-	"semanticHighlighting": true,
+	"semanticHighlighting": false,
 
 	"semanticTokenColors": {
 		/* "variable.defaultLibrary": {

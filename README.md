@@ -6,7 +6,7 @@
 
 Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/tweakimp/jungle-night).
 
-I added custom coloring to the Syntax. Basic Semantic Highlighting available.
+I added custom coloring to the Syntax. Disabled Semantic Highlighting for now.
 
 Looks like too much color in the syntax, but I will keep tweaking as I use this as my main theme. If you do have suggestions, please add an issue!
 
