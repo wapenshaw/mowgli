@@ -131,8 +131,8 @@
 		"editor.symbolHighlightBorder": "#80ff80",
 		"editor.wordHighlightBackground": "#fac86330",
 		"editor.wordHighlightBorder": "#fac863",
-		"editor.wordHighlightStrongBackground": "#00000000",
-		"editor.wordHighlightStrongBorder": "#00000000",
+		"editor.wordHighlightStrongBackground": "#fac86310",
+		"editor.wordHighlightStrongBorder": "#fac86365",
 		/* #endregion */
 
 		/* #region Other Editor Colors */

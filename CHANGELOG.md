@@ -33,3 +33,4 @@
 
 -   Minor Color Tweaks
 -   Disabled Semantic highlighting
+-   editor.wordHighlightStrongBackground: was set to blank, fixed.
