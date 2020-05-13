@@ -571,6 +571,13 @@
 			}
 		},
 		{
+			"name": "Variables - Other Objects",
+			"scope": ["variable.other.object"],
+			"settings": {
+				"foreground": "#f2ffa7"
+			}
+		},
+		{
 			"name": "Variables Constant",
 			"scope": ["variable.other.constant"],
 			"settings": {
@@ -581,7 +588,7 @@
 			"name": "Variables Property",
 			"scope": ["variable.other.property"],
 			"settings": {
-				"foreground": "#f8a681"
+				"foreground": "#fccdb7"
 			}
 		},
 		{
@@ -642,6 +649,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -703,6 +711,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#FFCB6B"
 			}
 		},
@@ -743,7 +752,7 @@
 			"scope": ["variable.language"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#ff798f"
 			}
 		},
 		{

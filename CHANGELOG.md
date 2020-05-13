@@ -28,3 +28,8 @@
 
 -   Massive Syntax coloring rework
 -   Basic Semantics Highlighting Schema added. Flag set to true
+
+## [0.1.5] - 2020-05-11
+
+-   Minor Color Tweaks
+-   Disabled Semantic highlighting
