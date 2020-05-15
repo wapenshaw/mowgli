@@ -5,3 +5,4 @@ images/*.psd
 images/*.gif
 images/mowgli-banner.png
 images/screenshot1.png
+.tmp/**

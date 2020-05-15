@@ -8,8 +8,6 @@ Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/twea
 
 I added custom coloring to the Syntax. Disabled Semantic Highlighting for now.
 
-Looks like too much color in the syntax, but I will keep tweaking as I use this as my main theme. If you do have suggestions, please add an issue!
-
 I'd also recommend the following extenions which I've used for the screenshot:
 
 1. [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)
@@ -21,4 +19,4 @@ I'd also recommend the following extenions which I've used for the screenshot:
 
 ### Demo
 
-![Demo v 0.1.1](./images/demo011.gif)
+![Demo v 0.1.7](./images/demo017.gif)
