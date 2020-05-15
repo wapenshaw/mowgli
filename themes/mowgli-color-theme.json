@@ -820,9 +820,16 @@
 		},
 		{
 			"name": "js variable readwrite",
-			"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+			"scope": "variable.other.readwrite, meta.object-literal.key, support.variable.property,support.variable.object.process,support.variable.object.node",
 			"settings": {
 				"foreground": "#cbe1ff"
+			}
+		},
+		{
+			"name": "js variable object",
+			"scope": "variable.other.object",
+			"settings": {
+				"foreground": "#f87383"
 			}
 		},
 		{
