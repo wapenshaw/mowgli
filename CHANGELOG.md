@@ -35,7 +35,8 @@
 -   Disabled Semantic highlighting
 -   editor.wordHighlightStrongBackground: was set to blank, fixed.
 
-## [0.2.0] - 2020-05-15
+## [0.4.0] - 2020-05-15
 
 -   Massive Syntax Coloring revamp, follows a standard style and not colors everywhere 😁
 -   Removed bold style for some tokens.
+-   Messed up market place versioning
