@@ -2,28 +2,6 @@
 	"name": "Mowgli",
 	"type": "dark",
 
-	"semanticHighlighting": false,
-
-	"semanticTokenColors": {
-		/* "variable.defaultLibrary": {
-			"foreground": "#EEffff",
-			"fontStyle": "bold"
-		},
-		"variable": "#f88550", */
-		"*.declaration": {
-			"fontStyle": "bold"
-		},
-		"member": "#EEffff",
-
-		//"property.readonly": "#b28df8",
-		//"property": "#0099ff",
-
-		//"function": "#96f583",
-		"typeParameter": "#0084ff"
-
-		//"member.defaultLibrary": "#008cff"
-	},
-
 	"colors": {
 		//#region   Activity Bar
 		"activityBar.activeBackground": "#00000000",
@@ -551,6 +529,66 @@
 		"window.inactiveBorder": "#00000000"
 		/* #endregion */
 	},
+	// Semantic Highlighting Settings - Disabled for now
+
+	"semanticHighlighting": false,
+	"semanticTokenColors": {
+		// Variables
+		"variable": "#fafbfc",
+		"variable.declaration": {
+			"foreground": "#79b8ff",
+			"fontStyle": "bold"
+		},
+		"*.defaultLibrary": {
+			"foreground": "#f7d084",
+			"fontStyle": ""
+		}
+
+		// // Other
+		// "namespace": "#ff0000",
+		// "type": "#ff0000",
+		// "struct": "#ff0000",
+		// "class": "#ff0000",
+		// "class.readonly": {
+		// 	"foreground": "#ff0000",
+		// 	"fontStyle": ""
+		// },
+		// "class.defaultLibrary": {
+		// 	"foreground": "#ff0000",
+		// 	"fontStyle": ""
+		// },
+		// "class.declaration": {
+		// 	"foreground": "#ff0000",
+		// 	"fontStyle": ""
+		// },
+		// "interface": "#ff0000",
+		// "enum": "#ff0000",
+		// "function": "#ff0000",
+		// "member": {
+		// 	"foreground": "#ff0000",
+		// 	"fontStyle": ""
+		// },
+		// "macro": "#ff0000",
+
+		// "parameter": "#ff0000",
+		// "typeParameter": "#ff0000",
+		// "property": "#ff0000",
+		// "property.declaration": "#ff0000",
+		// "property.readonly": "#ff0000",
+		// "property.defaultLibrary": {
+		// 	"foreground": "#ff0000",
+		// 	"fontStyle": ""
+		// },
+		// "enumMember": "#ff0000",
+		// "event": "#ff0000",
+		// "label": "#ff0000",
+		// "comment": "#ff0000",
+		// "string": "#ff0000",
+		// "keyword": "#ff0000",
+		// "number": "#ff0000",
+		// "regexp": "#ff0000",
+		// "operator": "#ff0000"
+	},
 
 	// Syntax Highligiting
 
@@ -657,7 +695,15 @@
 			"name": "Block Level Variables",
 			"scope": ["meta.block variable.other"],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f39499"
+			}
+		},
+		{
+			"name": "Meta objects",
+			"scope": ["meta.object meta.object-literal"],
+			"settings": {
+				"foreground": "#eeffff",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -711,7 +757,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				//"fontStyle": "bold",
 				"foreground": "#FFCB6B"
 			}
 		},
