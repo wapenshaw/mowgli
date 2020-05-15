@@ -19,4 +19,4 @@ I'd also recommend the following extenions which I've used for the screenshot:
 
 ### Demo
 
-![Demo v 0.1.7](./images/demo017.gif)
+![Demo v 0.2.0](./images/demo017.gif)
