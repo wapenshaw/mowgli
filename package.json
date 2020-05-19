@@ -2,10 +2,10 @@
 	"name": "mowgli",
 	"displayName": "Mowgli",
 	"description": "A Colorful theme based on the Jungle Night Theme",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"publisher": "wapenshaw",
 	"galleryBanner": {
-		"color": "#0F1519",
+		"color": "#3e4246",
 		"theme": "dark"
 	},
 	"license": "MIT",
