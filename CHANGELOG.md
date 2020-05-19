@@ -1,7 +1,8 @@
 # Change Log
 
-## [1.0.1] - 2020-05-20
+## [1.0.2] - 2020-05-20
 
+-  1.0.2 - Republished with updated readme.
 -  1.0.1 - Minor changes for a proper publish on marketplace.
 -  Bumping Version to 1.0.0 because, I am satisfied with the progress so far, as I feel it can be used as a daily driver.
 -  Tweaks to Selected text highlighting.

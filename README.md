@@ -7,7 +7,7 @@
 ATTENTION! : Make sure you disable semantic highlighting in VSCode versions above 1.4.3. Add this to your settings.json file.
 
 ```javascript
-"editor.semanticHighlighting.enabled": true,
+"editor.semanticHighlighting.enabled": false,
 ```
 
 ### Javascript
