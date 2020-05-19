@@ -71,7 +71,3 @@ I'd also recommend the following extenions which make the experience better.
 2. [Cascadia Code Font (used in screenshot) || ](https://github.com/microsoft/cascadia-code)[Fira Code Font](https://github.com/tonsky/FiraCode)
 3. [Indent Rainbow](https://github.com/oderwat/vscode-indent-rainbow)
 4. [Helium Icon Theme](https://github.com/helgardferreira/vscode-helium-icon-theme)
-
-```
-
-```
