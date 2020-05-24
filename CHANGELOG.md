@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3] - 2020-05-20
+
+-  Versioning Fix
+
 ## [1.0.2] - 2020-05-20
 
 -  1.0.2 - Republished with updated readme.
