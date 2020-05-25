@@ -525,8 +525,8 @@
 
 		"widget.shadow": "#0F1519",
 
-		"window.activeBorder": "#00000000",
-		"window.inactiveBorder": "#00000000"
+		// "window.activeBorder": "#00000000",
+		// "window.inactiveBorder": "#00000000"
 		/* #endregion */
 	},
 	// Semantic Highlighting Settings - Disabled for now

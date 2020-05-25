@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.0] - 2020-05-20
+
+- Fixed major Sidebar annoyance where sidebar panel locations aren't persisting over restart.
+
 ## [1.0.3] - 2020-05-20
 
 -  Versioning Fix
