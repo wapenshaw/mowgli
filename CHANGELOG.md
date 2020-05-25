@@ -1,10 +1,14 @@
 # Change Log
 
-## [1.1.0] - 2020-05-20
+## [1.1.2] - 2020-05-25
 
-- Fixed major Sidebar annoyance where sidebar panel locations aren't persisting over restart.
+-  Incorporated latest updates from Jungle night theme
 
-## [1.0.3] - 2020-05-20
+## [1.1.0] - 2020-05-25
+
+-  Fixed major Sidebar annoyance where sidebar panel locations aren't persisting over restart.
+
+## [1.0.3] - 2020-05-25
 
 -  Versioning Fix
 

@@ -28,7 +28,7 @@ ATTENTION! : Make sure you disable semantic highlighting in VSCode versions abov
 
 ### Everything else
 
-![Complete Viewport](./images/display/complete.png 'Sample in JS')
+![Complete Viewport](./images/display/complete.png 'Complete Viewport')
 
 Recommended Editor Settings :
 
@@ -36,24 +36,53 @@ Recommended Editor Settings :
 	// Workbench Settings
 	"workbench.sideBar.location": "right",
 	"workbench.editor.highlightModifiedTabs": true,
-	//Editor
-	"editor.fontFamily": "Cascadia Code",
+	//Editor -- Download link for the Ligalex Font below
+	"editor.fontFamily": "Ligalex Mono",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 15,
-	//Cursor
-	"editor.cursorStyle": "block",
-	"editor.cursorBlinking": "phase",
-	"editor.cursorSmoothCaretAnimation": true,
-	"editor.renderWhitespace": "none",
-	"editor.smoothScrolling": true,
+	"editor.fontSize": 16,
+	"editor.fontWeight": 300,
 	// Minimap
 	"editor.minimap.enabled": true,
 	"editor.minimap.renderCharacters": false,
-	"editor.minimap.maxColumn": 150,
+	"editor.minimap.maxColumn": 100,
+	"editor.renderWhitespace": "selection",
 	"editor.minimap.showSlider": "always",
+	"editor.minimap.size": "fit",
 ```
 
-Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/tweakimp/jungle-night).I added custom coloring to the Syntax.
+If you prefer italics for strings and keywords, add this to your settings.json
+
+```json
+"editor.tokenColorCustomizations": {
+	"[Mowgli]": {
+		"textMateRules": [
+			{
+				"name": "Keywords",
+				"scope": "storage.type",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Parameters",
+				"scope": "variable.parameter",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Strings",
+				"scope": "string.template, string.quoted.single",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	}
+	},
+```
+
+Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/tweakimp/jungle-night), I added custom coloring to the Syntax.
 
 Languages supported :
 
@@ -68,6 +97,6 @@ Languages supported :
 I'd also recommend the following extenions which make the experience better.
 
 1. [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)
-2. [Cascadia Code Font (used in screenshot) || ](https://github.com/microsoft/cascadia-code)[Fira Code Font](https://github.com/tonsky/FiraCode)
-3. [Indent Rainbow](https://github.com/oderwat/vscode-indent-rainbow)
-4. [Helium Icon Theme](https://github.com/helgardferreira/vscode-helium-icon-theme)
+2. [Ligalex Mono aka IBM Plex Mono with Ligatures](https://github.com/ToxicFrog/Ligaturizer/releases)
+3. Other recommended Fonts : [Cascadia Code Font](https://github.com/microsoft/cascadia-code) || [Fira Code Font](https://github.com/tonsky/FiraCode)
+4. Icons in the screenshot are from the Monokai Pro icon set.

@@ -37,9 +37,9 @@
 		/* #endregion */
 
 		/* #region   Check box */
-		"checkbox.background": "#ff01ff",
-		"checkbox.border": "#ff02ff",
-		"checkbox.foreground": "#ff03ff",
+		"checkbox.background": "#1E2428",
+		"checkbox.border": "#dcdcdc",
+		"checkbox.foreground": "#fac863",
 		/* #endregion */
 
 		/* #region  Active Border */
