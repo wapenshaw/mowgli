@@ -55,17 +55,18 @@
 		"debugIcon.breakpointForeground": "#e54545",
 		"debugIcon.breakpointStackframeForeground": "#fac863",
 		"debugIcon.breakpointUnverifiedForeground": "#e54545",
-		// "debugIcon.continueForeground": "",
-		// "debugIcon.disconnectForeground": "",
-		// "debugIcon.pauseForeground": "",
-		// "debugIcon.restartForeground": "",
-		// "debugIcon.startForeground": "",
-		// "debugIcon.stepIntoForeground": "",
-		// "debugIcon.stepOutForeground": "",
-		// "debugIcon.stepOverForeground": "",
-		// "debugIcon.stopForeground": "",
 		"debugToolBar.background": "#1E2428",
 		"debugToolBar.border": "#fac863",
+		"debugIcon.startForeground": "#a9dc76",
+		"debugIcon.continueForeground": "#fcfcfa",
+		"debugIcon.disconnectForeground": "#fcfcfa",
+		"debugIcon.pauseForeground": "#fcfcfa",
+		"debugIcon.restartForeground": "#a9dc76",
+		"debugIcon.stepBackForeground": "#fcfcfa",
+		"debugIcon.stepIntoForeground": "#fcfcfa",
+		"debugIcon.stepOutForeground": "#fcfcfa",
+		"debugIcon.stepOverForeground": "#fcfcfa",
+		"debugIcon.stopForeground": "#ff6188",
 		/* #endregion */
 
 		"descriptionForeground": "#dcdcdc",
@@ -161,9 +162,9 @@
 		"editorIndentGuide.background": "#3E4246",
 
 		"editorInfo.border": "#00000000",
-		"editorInfo.foreground": "#8080ff", // zigzag lines for info
-		// "editorLightBulb.foreground": "", // quick fix lightbulb color
-		// "editorLightBulbAutoFix.foreground": "",
+		"editorInfo.foreground": "#8080ff",
+		"editorLightBulb.foreground": "#ffd866",
+		"editorLightBulbAutoFix.foreground": "#a9dc76",
 
 		"editorLineNumber.activeForeground": "#dcdcdc",
 		"editorLineNumber.foreground": "#4E5255",
@@ -338,9 +339,9 @@
 		"notifications.background": "#1E2428",
 		"notifications.border": "#00000000",
 		"notifications.foreground": "#dcdcdc",
-		// "notificationsErrorIcon.foreground": "",
-		// "notificationsInfoIcon.foreground": "",
-		// "notificationsWarningIcon.foreground": "",
+		"notificationsErrorIcon.foreground": "#ff6188",
+		"notificationsInfoIcon.foreground": "#78dce8",
+		"notificationsWarningIcon.foreground": "#fc9867",
 		/* #endregion */
 
 		/* #region  Panel */
@@ -375,13 +376,13 @@
 		"peekViewTitleLabel.foreground": "#fac863",
 		/* #endregion */
 
-		/* #region  Picker Group and Progressbar */
+		/* #region  Picker Group, Problem Icons Progressbar */
 		"pickerGroup.border": "#0F1519",
 		"pickerGroup.foreground": "#dcdcdc",
 
-		// "problemsErrorIcon.foreground": "",
-		// "problemsInfoIcon.foreground": "",
-		// "problemsWarningIcon.foreground": "",
+		"problemsErrorIcon.foreground": "#ff6188",
+		"problemsWarningIcon.foreground": "#fc9867",
+		"problemsInfoIcon.foreground": "#78dce8",
 
 		"progressBar.background": "#fac863",
 		/* #endregion */
@@ -438,7 +439,7 @@
 		/* #region  Status Bar */
 		"statusBar.background": "#1E2428",
 		"statusBar.border": "#0F1519",
-		"statusBar.debuggingBackground": "#1E2428",
+		"statusBar.debuggingBackground": "#3E4246",
 		"statusBar.debuggingBorder": "#fac863",
 		"statusBar.debuggingForeground": "#dcdcdc",
 		"statusBar.foreground": "#dcdcdc",
@@ -460,7 +461,7 @@
 		"tab.activeBorder": "#dcdcdc",
 		"tab.activeBorderTop": "#00000000", // Top Border on tab, not wanted > transparent
 		"tab.activeForeground": "#dcdcdc",
-		"tab.activeModifiedBorder": "#ff13ff",
+		"tab.activeModifiedBorder": "#fac863",
 
 		"tab.border": "#0F1519", // border between tabs
 		"tab.hoverForeground": "#ffffff",
@@ -480,6 +481,42 @@
 		"tab.unfocusedHoverBorder": "#dcdcdc",
 		"tab.unfocusedInactiveForeground": "#dcdcdc",
 		"tab.unfocusedInactiveModifiedBorder": "#ff16ff",
+		/* #endregion */
+
+		/* #region  Symbol Coloring */
+		"symbolIcon.arrayForeground": "#ff6188",
+		"symbolIcon.booleanForeground": "#ff6188",
+		"symbolIcon.classForeground": "#78dce8",
+		"symbolIcon.colorForeground": "#ab9df2",
+		"symbolIcon.constructorForeground": "#a9dc76",
+		"symbolIcon.constantForeground": "#ab9df2",
+		"symbolIcon.enumeratorForeground": "#fc9867",
+		"symbolIcon.enumeratorMemberForeground": "#fc9867",
+		"symbolIcon.eventForeground": "#fc9867",
+		"symbolIcon.fieldForeground": "#fc9867",
+		"symbolIcon.fileForeground": "#c1c0c0",
+		"symbolIcon.folderForeground": "#c1c0c0",
+		"symbolIcon.functionForeground": "#a9dc76",
+		"symbolIcon.interfaceForeground": "#78dce8",
+		"symbolIcon.keyForeground": "#fc9867",
+		"symbolIcon.keywordForeground": "#ff6188",
+		"symbolIcon.methodForeground": "#a9dc76",
+		"symbolIcon.moduleForeground": "#78dce8",
+		"symbolIcon.namespaceForeground": "#78dce8",
+		"symbolIcon.nullForeground": "#ab9df2",
+		"symbolIcon.numberForeground": "#ab9df2",
+		"symbolIcon.objectForeground": "#78dce8",
+		"symbolIcon.operatorForeground": "#ff6188",
+		"symbolIcon.packageForeground": "#ab9df2",
+		"symbolIcon.propertyForeground": "#fc9867",
+		"symbolIcon.referenceForeground": "#ab9df2",
+		"symbolIcon.snippetForeground": "#a9dc76",
+		"symbolIcon.stringForeground": "#ffd866",
+		"symbolIcon.structForeground": "#ff6188",
+		"symbolIcon.textForeground": "#ffd866",
+		"symbolIcon.typeParameterForeground": "#fc9867",
+		"symbolIcon.unitForeground": "#ab9df2",
+		"symbolIcon.variableForeground": "#78dce8",
 		/* #endregion */
 
 		/* #region  Terminal Coloring  */

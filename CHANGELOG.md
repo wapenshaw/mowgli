@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.1.3]
+
+-  Added Symbol Coloring!
+-  Added coloring to notification type icons
+-  Lightened statusbar when debugging
+-  activeModifiedBorder not pink anymore
+
+![Symbols!](./images/display/symbols.png 'Symbols in Outline')
+
 ## [1.1.2] - 2020-05-25
 
 -  Incorporated latest updates from Jungle night theme

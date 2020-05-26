@@ -26,6 +26,10 @@ ATTENTION! : Make sure you disable semantic highlighting in VSCode versions abov
 
 ![Terminal](./images/display/terminal.png 'Terminal Colors')
 
+### Symbols
+
+![Symbols](./images/display/symbols.png 'Symbols in Outline')
+
 ### Everything else
 
 ![Complete Viewport](./images/display/complete.png 'Complete Viewport')
