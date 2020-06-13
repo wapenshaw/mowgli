@@ -54,38 +54,6 @@ Recommended Editor Settings :
 	"editor.minimap.size": "fit",
 ```
 
-If you prefer italics for strings and keywords, add this to your settings.json
-
-```json
-"editor.tokenColorCustomizations": {
-	"[Mowgli]": {
-		"textMateRules": [
-			{
-				"name": "Keywords",
-				"scope": "storage.type",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"name": "Parameters",
-				"scope": "variable.parameter",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"name": "Strings",
-				"scope": "string.template, string.quoted.single",
-				"settings": {
-					"fontStyle": "italic"
-				}
-			}
-		]
-	}
-	},
-```
-
 Its based of of my Favourite VSCode theme [Jungle Night](https://github.com/tweakimp/jungle-night), I added custom coloring to the Syntax.
 
 Languages supported :

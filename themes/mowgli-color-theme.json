@@ -10,7 +10,7 @@
 		"activityBar.activeFocusBorder": "#ffffff",
 		"activityBar.background": "#1E2428", // standard background
 		"activityBar.border": "#00000000", // border to the right of the whole activity bar
-		"activityBar.dropBackground": "#3E4246", // drag and drop
+		"activityBar.dropBorder": "#3E4246",
 		"activityBar.foreground": "#ffffff",
 		"activityBar.inactiveForeground": "#BCBDBE",
 		"activityBarBadge.background": "#4E5255",
@@ -58,14 +58,14 @@
 		"debugToolBar.background": "#1E2428",
 		"debugToolBar.border": "#fac863",
 		"debugIcon.startForeground": "#a9dc76",
-		"debugIcon.continueForeground": "#fcfcfa",
-		"debugIcon.disconnectForeground": "#fcfcfa",
-		"debugIcon.pauseForeground": "#fcfcfa",
-		"debugIcon.restartForeground": "#a9dc76",
-		"debugIcon.stepBackForeground": "#fcfcfa",
-		"debugIcon.stepIntoForeground": "#fcfcfa",
-		"debugIcon.stepOutForeground": "#fcfcfa",
-		"debugIcon.stepOverForeground": "#fcfcfa",
+		"debugIcon.continueForeground": "#a9dc76",
+		"debugIcon.disconnectForeground": "#fa626e",
+		"debugIcon.pauseForeground": "#ffb6e3",
+		"debugIcon.restartForeground": "#fa626e",
+		"debugIcon.stepBackForeground": "#77e0fa",
+		"debugIcon.stepIntoForeground": "#f8f818",
+		"debugIcon.stepOutForeground": "#aa98fc",
+		"debugIcon.stepOverForeground": "#a9dc76",
 		"debugIcon.stopForeground": "#ff6188",
 		/* #endregion */
 
@@ -104,9 +104,9 @@
 		"editor.lineHighlightBorder": "#00000000", // border around current line
 		"editor.rangeHighlightBackground": "#4E525515", // slight highlight for current line
 		"editor.rangeHighlightBorder": "#fac863", // border around current search result
-		"editor.selectionBackground": "#9ed1a633",
+		"editor.selectionBackground": "#409c81a1",
 		"editor.selectionForeground": "#dcdcdc",
-		"editor.selectionHighlightBackground": "#409c81a1",
+		"editor.selectionHighlightBackground": "#9ed1a633",
 		"editor.selectionHighlightBorder": "#00000000",
 		"editor.snippetFinalTabstopHighlightBackground": "#00000000",
 		"editor.snippetFinalTabstopHighlightBorder": "#00000000",
@@ -347,7 +347,7 @@
 		/* #region  Panel */
 		"panel.background": "#1E2428",
 		"panel.border": "#000000",
-		"panel.dropBackground": "#0F1519",
+		"panelSection.dropBackground": "#0F1519",
 
 		"panelInput.border": "#ff11ff",
 
@@ -582,6 +582,27 @@
 	},
 
 	"tokenColors": [
+		{
+			"name": "Keywords",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string.template, string.quoted.single",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
 		{
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
@@ -818,7 +839,7 @@
 			"name": "js variable readwrite",
 			"scope": "variable.other.readwrite, meta.object-literal.key, support.variable.property,support.variable.object.process,support.variable.object.node",
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#fcfca0"
 			}
 		},
 		{
@@ -1797,7 +1818,27 @@
 			"name": "ts primitive/builtin types",
 			"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
 			"settings": {
-				"foreground": "#ffb38c"
+				"foreground": "#00FFFF",
+				"fontStyle": "italic "
+			}
+		},
+		{
+			"name": "Decorators TS",
+			"scope": "meta.decorator.ts",
+			"settings": {
+				"foreground": "#008cff"
+			}
+		},
+		{
+			"scope": "variable.other.readwrite.ts",
+			"settings": {
+				"foreground": "#cce8ff"
+			}
+		},
+		{
+			"scope": "entity.other.inherited-class.ts",
+			"settings": {
+				"foreground": "#fcfca0"
 			}
 		},
 		{
